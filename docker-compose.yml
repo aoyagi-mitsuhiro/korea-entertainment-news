@@ -1,0 +1,15 @@
+name: kor-news-entertainment
+services:
+
+  news-php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    container_name: kor-news-entertainment-php
+    ports:
+      - "2222:80"
+    volumes:
+      - ./html:/var/www/html
+
+volumes:
+  db_data:

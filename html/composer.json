@@ -1,0 +1,22 @@
+{
+    "name": "aoyagi/news-html",
+    "description": "korea entertainment news composer",
+    "autoload": {
+        "psr-4": {
+            "Aoyagi\\NewsHtml\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aoyagi mitsuhiro",
+            "email": "aoyagi@fb.tapweb.jp"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/browser-kit": "^7.0",
+        "symfony/http-client": "^7.0",
+        "symfony/css-selector": "^7.0",
+        "symfony/panther": "^2.4"
+    }
+}
